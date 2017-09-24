@@ -1,7 +1,7 @@
 /****************************************************
 * Trab 2 : Numeros Primos
 * Nome: Gabriel Duarte Louredo da Costa
-* Matrícula: 0050015048
+* MatrÃ­cula: 0050015048
 * Professor: Alex Salgado
 *****************************************************/
 
@@ -24,10 +24,10 @@ int main()
 		while(num<=0);
 	
 		/* 
-		Filtra todos os múltiplos de 2, 3, 5, 7 e, consequentemente, os múltiplos de todos os demais números.
-		Se o número digitado for múltiplo de um desses 4 números, exceto se o mesmo for equivalente a eles próprios (2, 3, 5 e 7),
-		logo, o número não é primo, caso contrário, o número é primo.
-		Construi essa lógica tendo como base o raciocínio mostrado nesse site:
+		Filtra todos os mÃºltiplos de 2, 3, 5, 7 e, consequentemente, os mÃºltiplos de todos os demais nÃºmeros.
+		Se o nÃºmero digitado for mÃºltiplo de um desses 4 nÃºmeros, exceto se o mesmo for equivalente a eles prÃ³prios (2, 3, 5 e 7),
+		logo, o nÃºmero nÃ£o Ã© primo, caso contrÃ¡rio, o nÃºmero Ã© primo.
+		Construi essa lÃ³gica tendo como base o raciocÃ­nio mostrado nesse site:
 		https://educacao.uol.com.br/disciplinas/matematica/numeros-primos-veja-algoritmo-para-encontra-los.htm
 		*/ 
 		if ( ((num==1) || (num%2 == 0) || (num%3 == 0) || (num%5 == 0) || (num%7 == 0)) && !((num==2) || (num==3) || (num==5) || (num==7)) )
@@ -44,7 +44,7 @@ int main()
 	
 	if (p=2)
 	
-	printf("\nObrigado, ate a proxima! Para ver o meu codigo entre no link:\n");
+	printf("\nObrigado, ate a proxima! Para ver o meu codigo entre no link:\nhttps://github.com/gabrieldaarte/prog1/blob/master/numero%20primo%20-%20FINAL.c\n");
 
 	system("pause");
 	return 0;
