@@ -27,7 +27,7 @@ int main()
 		Filtra todos os múltiplos de 2, 3, 5, 7 e, consequentemente, os múltiplos de todos os demais números.
 		Se o número digitado for múltiplo de um desses 4 números, exceto se o mesmo for equivalente a eles próprios (2, 3, 5 e 7),
 		logo, o número não é primo, caso contrário, o número é primo.
-		Construi essa lógica tendo como base o raciocínio mostrado nesse site:
+		Construí essa lógica tendo como base o raciocínio mostrado nesse site:
 		https://educacao.uol.com.br/disciplinas/matematica/numeros-primos-veja-algoritmo-para-encontra-los.htm
 		*/ 
 		if ( ((num==1) || (num%2 == 0) || (num%3 == 0) || (num%5 == 0) || (num%7 == 0)) && !((num==2) || (num==3) || (num==5) || (num==7)) )
