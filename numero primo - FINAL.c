@@ -42,7 +42,7 @@ int main()
 		scanf("%d", &p);
 	}
 	
-	if (p=2)
+	if (p=2) // Exibe mensagem de agradecimento, caso opte por não continuar.
 	
 	printf("\nObrigado, ate a proxima! Para ver o meu codigo entre no link:\n\nhttps://goo.gl/cH5YiE\n\n");
 
