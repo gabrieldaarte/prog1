@@ -44,7 +44,7 @@ int main()
 	
 	if (p=2)
 	
-	printf("\nObrigado, ate a proxima! Para ver o meu codigo entre no link:\nhttps://github.com/gabrieldaarte/prog1/blob/master/numero%20primo%20-%20FINAL.c\n");
+	printf("\nObrigado, ate a proxima! Para ver o meu codigo entre no link:\n\nhttps://goo.gl/cH5YiE\n\n");
 
 	system("pause");
 	return 0;
