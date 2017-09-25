@@ -6,19 +6,22 @@
 *****************************************************/
 
 #include <stdio.h>
+#include <locale.h>
 
 int main()
 {
 	int num, p=1;
 	
-	printf("\nOla, meu nome eh Gabriel Duarte e vou calcular numeros primos.\n");
+	setlocale(LC_ALL, "Portuguese");
+	
+	printf("\nOlá, meu nome é Gabriel Duarte e vou calcular números primos.\n");
 	
 	while (p<=1) 
 	{
 	
 		do
 		{
-			printf("\nEntre com um numero positivo: ");
+			printf("\nEntre com um número positivo: ");
 			scanf("%d", &num);
 		}
 		while(num<=0);
@@ -32,19 +35,19 @@ int main()
 		*/ 
 		if ( ((num==1) || (num%2 == 0) || (num%3 == 0) || (num%5 == 0) || (num%7 == 0)) && !((num==2) || (num==3) || (num==5) || (num==7)) )
 
-		printf("\n%d NAO EH um numero primo.\n", num);
+		printf("\n%d NÃO É um número primo.\n", num);
 	
 		else
 
-		printf("\n%d eh um numero primo.\n", num);
+		printf("\n%d é um número primo.\n", num);
 
-		printf("\nDeseja continuar (1-Sim / 2-Nao) ? ");
+		printf("\nDeseja continuar (1-Sim / 2-Não) ? ");
 		scanf("%d", &p);
 	}
 	
 	if (p=2) //Exibe mensagem de agradecimento, caso opte por não continuar (opção 2).
 	
-	printf("\nObrigado, ate a proxima! Para ver o meu codigo entre no link:\n\nhttps://goo.gl/cH5YiE\n\n");
+	printf("\nObrigado, até a próxima! Para ver o meu código entre no link:\n\nhttps://goo.gl/cH5YiE\n\n");
 
 	system("pause");
 	return 0;
